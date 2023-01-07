@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+.box {
+    display:flex;
+    justify-content: center;
+    align-items:center; 
+    height: 100vh;
+    background-color: #333;
+    
+}
+.button{
+    padding: 10px 50px;
+    background-color: #333;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #38aaa6;
+    text-transform: uppercase;
+    border: 10px solid #38aaa6;
+    border-radius: 5px;
+    animation-name: yvelichivaem;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;  
+
+}
+#lik{
+    letter-spacing: 8px;
+} 
+
+
+@keyframes yvelichivaem {
+    50%{
+        transform:translateY(-5px) ;scale: 1.1;
+        color:#2196f3   ;
+        border: 4px #2196f3 solid;
+        box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3    ;
+        transition: 1s;
+        border-radius: 10px;
+    }
+
+}
+
