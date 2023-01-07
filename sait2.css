@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 143, 231);
+}
+
+/* Здесь шапка */
+.box2{
+
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(158, 240, 240);
+}
+
+li{
+    padding-left:30px;
+    list-style: none;
+    padding-right: 50px ;
+}   
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px ;
+}   
+/* Здесь секция с товаром */
+h1{
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(181, 54, 216) ;
+    padding: 50px;
+}
+
+.box11{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box22{
+    display:flex;
+    justify-content: center;
+    align-items: center;       
+}
+img {
+    padding: 20px;
+}
+button{
+  margin-left:20px;       
+}
+
+.btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nbt {
+    font-size: 30px;
+    background-color: rgb(196, 68, 255);
+    border-radius: 5px;
+}
